@@ -1,0 +1,14 @@
+{
+  "name": "helloween",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Slava",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
