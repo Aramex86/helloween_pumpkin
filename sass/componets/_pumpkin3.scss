@@ -1,16 +1,15 @@
-.pampwrap-img1{
+.pampwrap-img3{
   width: 20rem;
   height: 20rem;
   border: 1px solid rgba($eye-color, .2);
   border-radius: 45%;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  z-index: -1;
+  top: 46%;
+  left: 11%;
+  transform: scale(0.8) translate(-48%,-48%);
   background-image: linear-gradient(to bottom,$color-pupkin,$color-pupkin-1);
-  animation:midlePumpkin 1s ;
-  animation-delay: .1s;
-  z-index: 1;
+  animation: movePumpkin3 1s 1s;
   &::before{
     content: "";
     display: inline-block;
@@ -45,11 +44,11 @@
     border-radius: 18px 2px 9px 3px;
   }
   &__eyeright{
-      width: 4rem;
-      height: 4rem;
-     background-color: $eye-color;
-      position: absolute;
-     top: 4rem;
+    width: 4rem;
+    height: 4rem;
+    background-color: $eye-color;
+    position: absolute;
+    top: 4rem;
     left: 4rem;
     -webkit-clip-path: polygon(0% 97%, 0% 100%, 3% 91%,53% 60%, 100% 4%, 91% 84%);
     clip-path: polygon(0% 97%, 0% 100%, 3% 91%,53% 60%, 100% 4%, 91% 84%);
@@ -138,13 +137,13 @@
     -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
   }
- /*&__toth4{
-    width: 1rem;
-    height: 1rem;
-    background-color: #eeeeee;
-    position: absolute;
-    top: 50%;
-    right: 10%;
-  }
-  */
+  /*&__toth4{
+     width: 1rem;
+     height: 1rem;
+     background-color: #eeeeee;
+     position: absolute;
+     top: 50%;
+     right: 10%;
+   }
+   */
 }
