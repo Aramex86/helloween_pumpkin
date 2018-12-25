@@ -5,11 +5,9 @@
   border-radius: 45%;
   position: absolute;
   z-index: -1;
-  top: 46%;
-  left: 83%;
   transform: scale(0.8) ;
   background-image: linear-gradient(to bottom,$color-pupkin,$color-pupkin-1);
-  animation: movePumpkin2 2s .3s ;
+  animation: movePumpkin2 1s .2s  ;
   &::before{
     content: "";
     display: inline-block;
@@ -55,6 +53,7 @@
     transform: rotateY(180deg);
     border-radius: 100% 67% 102% 5%;
     box-shadow: 1px 0px 1px 7px $color-blur inset;
+    animation: eyeLight 1s 1s infinite;
   }
   &__eyeleft{
     width: 4rem;
@@ -67,6 +66,7 @@
     clip-path: polygon(0% 97%, 0% 100%, 3% 91%,53% 60%, 100% 4%, 91% 84%);
     border-radius: 100% 67% 102% 5%;
     box-shadow: 1px 0px 1px 7px $color-blur inset;
+    animation: eyeLight 1s 1s infinite;
   }
   &__nose{
     width: 3rem;

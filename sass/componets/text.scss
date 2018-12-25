@@ -1,0 +1,15 @@
+.text{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  &__primary{
+    color: transparent;
+    font-size: 7rem;
+    text-transform: uppercase;
+    font-family: 'Acme', sans-serif;
+    background-image: linear-gradient(to top,$color-blur,$eye-color);
+    -webkit-background-clip: text;
+    animation: moveUp 1s .2s;
+  }
+}
